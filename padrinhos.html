@@ -2,9 +2,9 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <title>Gabi e Felipe</title>
     <meta http-equiv="X-UA-compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gabi e Felipe</title>
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
@@ -13,10 +13,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link href="css/pages/contato.css" rel="stylesheet" />
+    <link href="css/pages/padrinhos.css" rel="stylesheet" />
   </head>
   <body>
-    <header id="header" class="page-contato">
+    <header id="header" class="page-quem-somos">
       <div class="container">
         <div class="row">
           <div class="col col-desktop-9 col-6">
@@ -24,36 +24,54 @@
               <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="quem_somos.html">Noivos</a></li>
-                <li><a href="padrinhos.html">Padrinhos</a></li>
+                <li><a href="padrinhos.html" class="active">Padrinhos</a></li>
                 <li><a href="local.html">Local</a></li>
                 <li><a href="presentes.html">Lista de Presentes</a></li>
-                <li>
-                  <a href="contato.html" class="active">Confirmar Presença</a>
-                </li>
+                <li><a href="contato.html">Confirmar Presença</a></li>
               </ul>
             </nav>
           </div>
         </div>
-        <div class="row" id="confirmacao">
+        <div class="row" id="padrinhos">
           <div class="col col-desktop-12 title">
-            <h1>Confirme sua presença</h1>
+            <h1>Padrinhos e Madrinhas</h1>
+            <h2>10/09/2022 - 15h30</h2>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section class="section section-center">
-        <h2>Confirmar Presença</h2>
+      <section class="section" id="intro">
         <div class="container">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeFsPvWN0q676ASkZvrCQpehUot2EZoNPL2QpwUxl_EsCDyow/viewform?embedded=true"
-            width="800"
-            height="898"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            >Carregando…</iframe
-          >
+          <div class="row">
+            <div id="img-box" class="col col-desktop-4 col-6">
+              <img src="images/quem/paleta.png" alt="" />
+            </div>
+            <div class="col col-desktop-8">
+              <h2>Madrinhas</h2>
+              <p>
+                Para as madrinhas, optamos apenas por definir o comprimento e a
+                cor. Deverá ser longo, nos tons de rosa. Fornecemos uma paleta
+                de cores para que você possa se inspirar e arrasar!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="intro">
+        <div class="container">
+          <div class="row">
+            <div class="col col-desktop-8">
+              <h2>Padrinhos</h2>
+              <p>
+                Para os padrinhos, optam os em manter um padrão, sen do terno
+                preto, camisa branca e a gravata que já estamos te presenteando.
+              </p>
+            </div>
+            <div id="img-box" class="col col-desktop-4 col-6">
+              <img src="images/quem/padrinhos.png" alt="" />
+            </div>
+          </div>
         </div>
       </section>
     </main>
