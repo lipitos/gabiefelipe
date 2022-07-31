@@ -10,6 +10,13 @@
   color: rgba(255, 0, 13, 0.829);
 }
 
+#presentes h2 {
+  font-family: "Great Vibes";
+  color: rgba(255, 0, 13, 0.829);
+  text-transform: lowercase;
+  font-size: 40px;
+}
+
 #intro h2,
 #valores h2 {
   font-size: 20px;
